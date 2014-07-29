@@ -42,11 +42,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "ProcessMonitor/MasterViewController.mm"
-            timestampString = "428130391.751192"
+            timestampString = "428312160.47482"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "284"
-            endingLineNumber = "284"
+            startingLineNumber = "317"
+            endingLineNumber = "317"
             landmarkName = "-detailScanTableViewForColumn:atRow:"
             landmarkType = "5">
             <Locations>
@@ -102,11 +102,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "ProcessMonitor/MasterViewController.mm"
-            timestampString = "428130391.751192"
+            timestampString = "428312160.47482"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "248"
-            endingLineNumber = "248"
+            startingLineNumber = "281"
+            endingLineNumber = "281"
             landmarkName = "-detailScanTableViewForColumn:atRow:"
             landmarkType = "5">
             <Locations>

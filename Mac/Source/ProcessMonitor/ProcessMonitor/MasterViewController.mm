@@ -181,6 +181,39 @@
     return TRUE;
 }
 
+- ( NSString* ) filterResult: ( int ) i_scan_result
+{
+    NSString* scan_text = nil;
+    
+    switch ( i_scan_result )
+    {
+        case 0:
+            scan_text = @"Clean";
+            break;
+        case 1:
+            scan_text = @"Infected";
+            break;
+        case 2:
+            scan_text = @"Suspicious";
+            break;
+        case 3:
+            scan_text = @"Failed to scan";
+            break;
+        case 4:
+            scan_text = @"Cleaned";
+            break;
+        case 5:
+            scan_text = @"Unknown";
+            break;
+        case 6:
+            scan_text = @"Quarantined";
+            break;
+        default:
+            break;
+    }
+    return scan_text;
+}
+
 // -- [ Start action handlers ]
 //
 - ( NSView* )tableView: ( NSTableView* ) tableView viewForTableColumn:(NSTableColumn *) tableColumn row:(NSInteger)row
@@ -272,7 +305,7 @@
             {
                 wa_int i_scan_result;
                 engine_json.get( L"scan_result_i", i_scan_result );
-                text = [NSString stringWithFormat: @"%d", i_scan_result];
+                text = [self filterResult: i_scan_result];
             }
             else
             {

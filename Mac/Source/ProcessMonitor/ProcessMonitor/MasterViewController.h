@@ -32,6 +32,7 @@
 - ( NSView* ) detailScanTableViewForColumn: ( NSTableColumn *) tableColumn atRow:(NSInteger)row;
 - ( void ) updateDetailTable: ( NSInteger ) selectionId;
 - ( BOOL ) fillDetailTitle: ( WaJson* ) p_detail;
+- ( NSString* ) filterResult: ( int ) i_scan_result;
 
 void receiverSchedule( void *info, CFRunLoopRef rl, CFStringRef mode );
 void receiverPerform (void *info);
