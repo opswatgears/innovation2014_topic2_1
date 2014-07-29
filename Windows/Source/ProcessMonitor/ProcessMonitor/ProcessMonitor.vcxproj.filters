@@ -1,0 +1,188 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Utilities">
+      <UniqueIdentifier>{7734747d-e983-4880-a112-b1b19c38e488}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Utilities\Header Files">
+      <UniqueIdentifier>{7077f201-6c83-4f10-880d-0083a3a5c395}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Utilities\Source Files">
+      <UniqueIdentifier>{ccde945f-ea60-473d-88e6-ccebb9d66f23}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Metascan">
+      <UniqueIdentifier>{433c4dcc-ba0d-498b-8154-f7a0f765b0a7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Metascan\Header Files">
+      <UniqueIdentifier>{004b8cb5-4a99-4d0d-8536-89786cf459a3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Metascan\Source Files">
+      <UniqueIdentifier>{2b46f4f0-e3ec-4954-b7d1-b98e6e8f89fc}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ReadMe.txt" />
+    <None Include="res\ProcessMonitor.rc2">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\ProcessMonitor.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="ProcessMonitor.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ProcessMonitorDlg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="wa_process_scanner.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="wa_worker.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="wa_message_constant.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="wa_metascan_checker.h">
+      <Filter>Metascan\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="wa_metascan_manager.h">
+      <Filter>Metascan\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="wa_metascan_queue.h">
+      <Filter>Metascan\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="wa_metascan_reporter.h">
+      <Filter>Metascan\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="wa_metascan_uploader.h">
+      <Filter>Metascan\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Utilities\wa_utils_json.h">
+      <Filter>Utilities\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Utilities\wa_utils_unicode.h">
+      <Filter>Utilities\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Utilities\wa_utils_json_factory.h">
+      <Filter>Utilities\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Utilities\wa_utils_string.h">
+      <Filter>Utilities\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Utilities\wa_utils_types.h">
+      <Filter>Utilities\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Utilities\wa_api_error_codes.h">
+      <Filter>Utilities\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Utilities\wa_api_data_types.h">
+      <Filter>Utilities\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="wa_metascan_hashloader.h">
+      <Filter>Metascan\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SHA1.h">
+      <Filter>Utilities\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="wa_metascan_namelookup.h">
+      <Filter>Metascan\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="wa_process_database.h">
+      <Filter>Metascan\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="wa_process_info.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="wa_metascan_errchecker.h">
+      <Filter>Metascan\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DlgOption.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="ProcessMonitor.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ProcessMonitorDlg.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="wa_worker.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="wa_metascan_checker.cpp">
+      <Filter>Metascan\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="wa_metascan_manager.cpp">
+      <Filter>Metascan\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="wa_metascan_reporter.cpp">
+      <Filter>Metascan\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="wa_metascan_uploader.cpp">
+      <Filter>Metascan\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Utilities\wa_utils_json.cpp">
+      <Filter>Utilities\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Utilities\wa_utils_string.cpp">
+      <Filter>Utilities\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Utilities\wa_utils_json_factory.cpp">
+      <Filter>Utilities\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="wa_metascan_hashloader.cpp">
+      <Filter>Metascan\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SHA1.cpp">
+      <Filter>Utilities\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="wa_metascan_namelookup.cpp">
+      <Filter>Metascan\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="wa_process_database.cpp">
+      <Filter>Metascan\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="wa_metascan_errchecker.cpp">
+      <Filter>Metascan\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="wa_process_scanner.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DlgOption.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="ProcessMonitor.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>
